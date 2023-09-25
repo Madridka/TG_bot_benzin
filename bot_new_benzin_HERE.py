@@ -1,10 +1,12 @@
+import os
+
 import telebot
 from telebot import types
 import sqlite3
 from dotenv import load_dotenv
 
 load_dotenv()
-bot = telebot.TeleBot('API_key')
+bot = telebot.TeleBot(os.getenv('API_key'))
 
 
 @bot.message_handler(commands=['start'])
