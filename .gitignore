@@ -1,3 +1,6 @@
 /.idea
 benzin_bot.sql
 .env
+
+sqlite3_test_low.py
+bot_rashod_full_low.py
